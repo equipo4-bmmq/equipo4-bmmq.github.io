@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*nav li{
+    color: white;
+}
+
+nav {
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: top; 
+    height: 80px; 
+}*/
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: #401608;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+nav ul li a:hover {
+                color: #8c310f;
+                font-weight: bolder;
+            }
+#banner1{
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	opacity: 30%;
+	background-position: top;
+}
+
+.container{
+    margin-top: 70px;
+    color: #401708;
+}
+
+main{
+    height: auto;
+}
+
+h3{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #8c310f;
+}
+
+h4{
+    font-family: "Forum", serif;
+    font-style: normal;
+}
+
+hr {
+    height: 1.5px;
+    background-color: #8c310f;
+    margin-right:30%;
+    background: linear-gradient(to right,  #8c310f 50%, transparent 100%);
+}
+
+section{
+    margin-bottom: 70px;
+}
+
+.division{
+    height: 1.5px;
+    background-color: #8c310f;
+    width: 100%;
+    opacity: 50%;
+    background: linear-gradient(to right, transparent 0%, #8c310f 50%, transparent 100%);    
+}
+
+/* Visitante */
+#eventos{
+    margin-top: 25px;
+}
+
+#proximos h3{
+    color: #8c310f;
+}
+
+.mb-0{
+    color: #8c310f;
+}
+
+.card{
+    color: #8c310f;
+    background-color: #F3E8D3;
+}
+
+.card-header h5 a {
+  color: #401708;
+}
+
+#por h3{
+    text-align: center;
+}
+#por_fotos{
+    margin-left: 50px;
+}
+
+#informacion{
+    height: 270px;
+}
+
+/* Fin visitante */
+
+
+/* Contacto */
+#centro{
+    background: linear-gradient(to right, transparent 0%, #f2d194 50%, transparent 100%);
+}
+
+#banner{
+    margin-left: 85px;
+    height: 100px;
+}
+
+#video{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#ubicacion{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#tarjeta{
+    margin-top: 20px;
+}
+
+.direccion {
+    margin-right:30%;
+}
+
+.img-esq{
+    margin-left: 70px;
+}
+
+.visitas{
+    margin-top: 40px;
+    margin-right: 70px;   
+}
+
+.digital{
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 600px;
+}
+
+.datos{
+    margin-right: 170px;
+}
+
+#boton{
+     background-color: #bf751b;
+    color: white;
+    
+}
+
+#boton:hover{
+   
+    background-color: #f2d194;
+    
+    color: #401708;
+}
+
+/* Fin Contacto */
+
+
+/* Footer css */
+.pie{
+    background-color: #401708;
+    height: auto;
+    
+}
+
+#info_pie{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+#logo_blanco{
+    height: 40px;
+}
+
+#redes{
+    height: 30px;
+    margin-left: 15px;
+}
+
+#logo_blanco:hover{
+  filter: opacity(60%)
+}
+
+#redes:hover{
+  filter: opacity(40%)
+}
+
+/* Fin footer css */
+
+.animate__animated {
+  animation-duration: 2s; 
+  animation-iteration-count: 5;
+}
+
+.animate__bounce {
+  animation-duration: 2s;
+  animation-iteration-count: 8;
+}
+
+.animate__zoomInUp {
+  animation-duration: 800ms;
+  animation-delay: 5s;
+}
+
+.animate__headShake {
+  animation-duration: 8s;
+  animation-iteration-count: 5;
+}
+
+.animate__heartBeat { 
+  animation-duration: 2s;
+    animation-delay: 3s;
+  animation-iteration-count: 8;
+  animation-timing-function: ease-in-out;
+}
